@@ -6,5 +6,9 @@ This part is not required, we are given our own server and have to go through th
 
 I just wanted to do this on my own as a little extra to really get in the mindset, plus its been a long time since I have built a custom page from scratch so I am having fun with it.
 
-- Base lander has been created.
-- Will fill out the rest of the page and make it functional tonight.
+- Basic landing page 
+- JavaScript Navbar smoothes out the experience
+- Easy to book a ride through iframe
+- Responsive and smooth on desktop and mobile (or at least what me and my browser tools could test.)
+
+All in all pretty slick for something probably no one ever is going to appreciate haha.
