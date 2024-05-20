@@ -3,14 +3,15 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon_io_transport/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon_io_transport/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon_io_transport/favicon-16x16.png">
       <link rel="manifest" href="favicon_io/site.webmanifest">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="css/style.css">
+      <script src="https://kit.fontawesome.com/e8fc6ab9e5.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="css/style_transport.css">
       <title>Black Magik Transport</title>
    </head>
    <body>
@@ -30,7 +31,9 @@
                <span class="nav-link" data-target="about">About Us</span>
                <span class="nav-link" data-target="book">Book a Ride</span>
                <span class="nav-link" data-target="help">Help Desk</span>
+               
             </nav>
+            <span id="line"></span>
          </div>
          <!--Body-->
          <div class="body-container active" id="about">
@@ -39,13 +42,14 @@
                <h3>
                   Welcome to Black Magik Transport! We are dedicated to providing reliable and compassionate non-emergency medical transportation services to our community. Whether you need a ride to a medical appointment, a hospital visit, or a therapy session, our professional team is here to ensure you arrive safely and comfortably. At Black Magik Transport, we believe in making every journey as seamless and stress-free as possible. Trust us to be your partner in mobility and care, because with Black Magik Transport, you’re not just a passenger – you’re family.
                </h3>
+               <span id="sep"><p>.</p></span>
             </div>
             <div class="right">
                <img src="/img/emoji_lol.png" alt="">
             </div>
          </div>
          <div class="body-container" id="book">
-            <div class="left">
+            <div class="left" id="book-left">
                <div class="iframe-house">
                   <iframe style="width: 100%; height: 100%; border:none" src="https://training4.routegenie.com:8000/api/v1/iframe/book/21e7a336-655d-438f-b85b-24eb2589d39e/"></iframe>
                   <div style="text-align: center; color: rgb(33, 37, 41); font-weight: 400; font-size: 1rem; font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'">
@@ -66,12 +70,16 @@
                <h3>
                   <b>Email:</b> <a href="mailto:anemail@gmail.com">anemail@gmail.com</a> 
                </h3>
+               <h3>
+                  <a href="https://github.com/Catrat6/Black-Magik-Transport"><i class="fa-brands fa-github"></i></a>
+               </h3>
             </div>
             <div class="right" id="help-right">
                <img src="/img/helpdesk.png" alt="">
             </div>
          </div>
       </div>
+     
       <script>
          // Function to show the targeted content and hide others
          function showContent(event) {
